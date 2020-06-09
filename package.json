@@ -142,7 +142,7 @@
     "lint-staged": "10.2.6",
     "listr": "0.14.3",
     "ncp": "2.0.0",
-    "nodemon": "2.0.2",
+    "nodemon": "2.0.4",
     "prettier": "2.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
