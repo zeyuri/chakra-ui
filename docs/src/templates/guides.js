@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text, Link } from "@chakra-ui/core"
+import { Box, Flex, Heading, Text, Link, Stack, Avatar } from "@chakra-ui/core"
 import { useLocation } from "@reach/router"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
@@ -34,19 +34,26 @@ const Body = (props) => {
   } = props
   const creator = contributors[0]
   return (
-    <Box mx="auto" maxW="48rem" py="3rem">
-      <Heading size="lg" as="h1">
-        {title}
-      </Heading>
-      <Text mt="6">{description}</Text>
+    <Box mx="auto" maxW="42rem" py="3rem">
       {creator && (
-        <Text>
-          by{" "}
-          <Link href={creator.url} isExternal>
-            {creator.name}
-          </Link>
-        </Text>
+        <Stack marginBottom="1rem" direction="row" alignItems="center">
+          <Avatar src={creator.image} />
+          <Stack>
+            <Link isExternal href={creator.url} fontWeight="semibold">
+              {creator.name}
+            </Link>
+            <Text color="gray.500" fontSize="0.875rem" marginTop="0">
+              {modifiedTime}
+            </Text>
+          </Stack>
+        </Stack>
       )}
+      <Box marginBottom="3rem">
+        <Heading size="xl" as="h1" fontWeight={800}>
+          {title}
+        </Heading>
+        <Text mt="1">{description}</Text>
+      </Box>
       <MDXRenderer>{body}</MDXRenderer>
       {relativePath && (
         <LastEdited

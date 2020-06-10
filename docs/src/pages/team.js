@@ -138,28 +138,28 @@ function Team({ data }) {
 
 export default Team
 
-export const query = graphql`
-  query TeamQuery {
-    github {
-      organization(login: "chakra-ui") {
-        membersWithRole(first: 50) {
-          nodes {
-            avatarUrl
-            bio
-            login
-            name
-            twitterUsername
-            url
-            websiteUrl
-          }
-        }
-      }
-    }
-    contributors: allChakraContributor {
-      nodes {
-        login
-        avatarUrl
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query TeamQuery {
+//     github {
+//       organization(login: "chakra-ui") {
+//         membersWithRole(first: 50) {
+//           nodes {
+//             avatarUrl
+//             bio
+//             login
+//             name
+//             twitterUsername
+//             url
+//             websiteUrl
+//           }
+//         }
+//       }
+//     }
+//     contributors: allChakraContributor {
+//       nodes {
+//         login
+//         avatarUrl
+//       }
+//     }
+//   }
+// `
