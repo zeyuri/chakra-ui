@@ -23,11 +23,17 @@ import { useLocation } from "@reach/router"
 const NavLink = (props) => {
   const { to, ...rest } = props
   const { pathname } = useLocation()
-  const isActive = pathname === to
+
+  const isActive = () => {
+    if (pathname.includes("docs") && to.includes("docs")) {
+      return true
+    }
+    return pathname === to
+  }
 
   return (
     <chakra.a
-      aria-current={isActive ? "page" : undefined}
+      aria-current={isActive() ? "page" : undefined}
       as={GatsbyLink}
       to={to}
       display="block"
@@ -60,7 +66,7 @@ const HeaderContent = () => {
           <Logo />
         </chakra.a>
         <HStack as="nav" spacing="8" ml="32px">
-          <NavLink to="/getting-started">Docs</NavLink>
+          <NavLink to="/docs/getting-started">Docs</NavLink>
           <NavLink to="/guides">Guides</NavLink>
           <NavLink to="/team">Team</NavLink>
         </HStack>

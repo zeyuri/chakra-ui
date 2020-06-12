@@ -78,11 +78,11 @@ export const SideNavContent = ({
       pt="10"
       pb="6"
     >
-      <LinkGroup collection="main" title="Getting Started" />
-      <LinkGroup collection="theming" title="Theming" />
-      <LinkGroup collection="layout" title="Layout" />
-      <LinkGroup collection="components" title="Components" />
-      <LinkGroup collection="utilities" title="Utilities" />
+      <LinkGroup collection="docs" title="Getting Started" />
+      <LinkGroup collection="docs/theming" title="Theming" />
+      <LinkGroup collection="docs/layout" title="Layout" />
+      <LinkGroup collection="docs/components" title="Components" />
+      <LinkGroup collection="docs/utilities" title="Utilities" />
     </Box>
   </Box>
 )
