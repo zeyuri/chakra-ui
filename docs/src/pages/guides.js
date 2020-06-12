@@ -105,7 +105,7 @@ function Guides() {
         description="Community-created guides for using Chakra UI"
         slug="/guides"
       />
-      <Box pt="56px">
+      <Box py="56px">
         <Box py="80px">
           <Container maxWidth="md">
             <Heading as="h1" size="xl" mb="3">

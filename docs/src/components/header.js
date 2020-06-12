@@ -20,7 +20,7 @@ import SponsorButton from "./sponsor-button"
 import MobileNav from "./mobile-nav"
 import { useLocation } from "@reach/router"
 
-const NavLink = (props) => {
+export const NavLink = (props) => {
   const { to, ...rest } = props
   const { pathname } = useLocation()
 
@@ -68,7 +68,12 @@ const HeaderContent = () => {
         >
           <Logo />
         </chakra.a>
-        <HStack as="nav" spacing="8" ml="32px">
+        <HStack
+          as="nav"
+          ml="32px"
+          spacing="8"
+          display={["none", "none", "flex", "flex"]}
+        >
           <NavLink to="/docs/getting-started">Docs</NavLink>
           <NavLink to="/guides">Guides</NavLink>
           <NavLink to="/team">Team</NavLink>

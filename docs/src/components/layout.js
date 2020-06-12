@@ -4,6 +4,7 @@ import { Box } from "@chakra-ui/core"
 import { MDXProvider } from "@mdx-js/react"
 import MDXComponents from "./docs/mdx-components"
 import SideNav from "./docs/side-nav"
+import BottomNav from "./bottom-nav"
 import Header from "./header"
 import { Footer } from "./footer"
 import { SkipNavContent, SkipNavLink } from "@chakra-ui/skip-nav"
@@ -17,6 +18,7 @@ const HomeLayout = ({ children }) => (
     <Header />
     <SkipNavContent />
     {children}
+    <BottomNav />
   </Box>
 )
 
@@ -36,6 +38,7 @@ const DocsLayout = ({ children }) => {
           <Footer />
         </Box>
       </Box>
+      <BottomNav />
     </MDXProvider>
   )
 }
@@ -49,6 +52,7 @@ const GuidesLayout = ({ children }) => {
         <Main>{children}</Main>
         <Footer />
       </Box>
+      <BottomNav />
     </MDXProvider>
   )
 }
