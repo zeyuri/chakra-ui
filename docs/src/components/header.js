@@ -28,6 +28,9 @@ const NavLink = (props) => {
     if (pathname.includes("docs") && to.includes("docs")) {
       return true
     }
+    if (pathname.includes("guides") && to.includes("guides")) {
+      return true
+    }
     return pathname === to
   }
 
