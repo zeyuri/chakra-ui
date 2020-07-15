@@ -1,4 +1,4 @@
-name: Build & Test CI
+name: Main Workflow
 
 on:
   push:
@@ -12,7 +12,8 @@ on:
       - develop
 
 jobs:
-  build:
+  chakra:
+    name: Setup, test, and build Chakra
     runs-on: ubuntu-latest
     steps:
       - id: yarn-cache
@@ -36,7 +37,14 @@ jobs:
       - run: yarn install --frozen-lockfile && yarn bootstrap
         name: Install dependencies
 
+      - run: yarn test
+        name: Test all packages
+
+      - run: yarn lint
+        name: Lint all packages
+
+      - run: yarn type-check
+        name: Type check all packages
+
       - run: yarn build
         name: Build all packages
-      # - run: yarn test
-      #   name: Run all tests
