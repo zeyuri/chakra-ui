@@ -154,7 +154,6 @@
     "@types/wordpress__jest-console": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "3.8.0",
     "@typescript-eslint/parser": "3.8.0",
-    "@wordpress/jest-console": "3.7.0",
     "all-contributors-cli": "6.17.0",
     "arg": "4.1.3",
     "babel-eslint": "10.1.0",

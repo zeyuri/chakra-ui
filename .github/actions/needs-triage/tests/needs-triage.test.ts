@@ -29,6 +29,4 @@ test('adds a "needs triage" label', async () => {
     ])
 
   await run()
-
-  expect(console).toHaveLogged()
 })
