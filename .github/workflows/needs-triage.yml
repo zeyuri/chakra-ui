@@ -1,0 +1,20 @@
+name: "Needs Triage workflow"
+on: ["issues"]
+
+jobs:
+  build:
+    name: "Needs Triage"
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v1"
+        with:
+          fetch-depth: 1
+      - name: "Install modules"
+        run: "yarn"
+      - name: "Build action"
+        run:
+          "yarn tsc .github/actions/needs-triage/needs-triage.ts --skipLibCheck"
+      - uses: "./.github/actions/needs-triage"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: "needs-triage"

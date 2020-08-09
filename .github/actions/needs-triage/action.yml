@@ -1,0 +1,6 @@
+name: "needs-triage"
+description: "Adds the needs-triage label when a contributor opens an issue"
+author: "with-heart"
+runs:
+  using: "node12"
+  main: "./needs-triage.ts"
