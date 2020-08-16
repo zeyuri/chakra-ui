@@ -121,48 +121,24 @@ exports[`Progress renders correctly 1`] = `
 .emotion-1 {
   overflow: hidden;
   position: relative;
-  background: #EDF2F7;
+  background: gray.100;
   height: 0.5rem;
-}
-
-.emotion-1 color {
-  50: #F0FFF4;
-  100: #C6F6D5;
-  200: #9AE6B4;
-  300: #68D391;
-  400: #48BB78;
-  500: #38A169;
-  600: #2F855A;
-  700: #276749;
-  800: #22543D;
-  900: #1C4532;
+  color: green;
 }
 
 .emotion-0 {
   height: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #3182CE;
+  background: blue.500;
 }
 
 .emotion-3 {
   overflow: hidden;
   position: relative;
-  background: #EDF2F7;
+  background: gray.100;
   height: 0.75rem;
-}
-
-.emotion-3 color {
-  50: #EBF8FF;
-  100: #CEEDFF;
-  200: #90CDF4;
-  300: #63B3ED;
-  400: #4299E1;
-  500: #3182CE;
-  600: #2A69AC;
-  700: #1E4E8C;
-  800: #153E75;
-  900: #1A365D;
+  color: blue;
 }
 
 .emotion-2 {
@@ -171,27 +147,15 @@ exports[`Progress renders correctly 1`] = `
   transition: all 0.3s;
   background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
   background-size: 1rem 1rem;
-  background-color: #3182CE;
+  background: blue.500;
 }
 
 .emotion-5 {
   overflow: hidden;
   position: relative;
-  background: #EDF2F7;
+  background: gray.100;
   height: 1rem;
-}
-
-.emotion-5 color {
-  50: #FFFFF0;
-  100: #FEFCBF;
-  200: #FAF089;
-  300: #F6E05E;
-  400: #ECC94B;
-  500: #D69E2E;
-  600: #B7791F;
-  700: #975A16;
-  800: #744210;
-  900: #5F370E;
+  color: yellow;
 }
 
 .emotion-4 {
@@ -200,7 +164,7 @@ exports[`Progress renders correctly 1`] = `
   transition: all 0.3s;
   background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
   background-size: 1rem 1rem;
-  background-color: #3182CE;
+  background: blue.500;
   -webkit-animation: animation-0 1s linear infinite;
   animation: animation-0 1s linear infinite;
 }

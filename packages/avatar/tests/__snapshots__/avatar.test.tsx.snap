@@ -3,7 +3,7 @@
 exports[`Avatar renders correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  border-radius: 9999px;
+  border-radius: full;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -18,17 +18,17 @@ exports[`Avatar renders correctly 1`] = `
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: medium;
   position: relative;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background: #A0AEC0;
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  background: gray.400;
+  color: white;
+  border-color: white;
   vertical-align: top;
-  width: 3rem;
-  height: 3rem;
+  width: 12;
+  height: 12;
   font-size: calc(3rem / 2.5);
 }
 
@@ -57,7 +57,7 @@ exports[`Avatar renders correctly 1`] = `
 exports[`Avatar with AvatarBadge renders correctly 1`] = `
 <DocumentFragment>
   .emotion-1 {
-  border-radius: 9999px;
+  border-radius: full;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -72,17 +72,17 @@ exports[`Avatar with AvatarBadge renders correctly 1`] = `
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: medium;
   position: relative;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background: #A0AEC0;
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  background: gray.400;
+  color: white;
+  border-color: white;
   vertical-align: top;
-  width: 3rem;
-  height: 3rem;
+  width: 12;
+  height: 12;
   font-size: calc(3rem / 2.5);
 }
 
@@ -105,9 +105,9 @@ exports[`Avatar with AvatarBadge renders correctly 1`] = `
   -webkit-transform: translate(25%,25%);
   -ms-transform: translate(25%,25%);
   transform: translate(25%,25%);
-  border-radius: 9999px;
+  border-radius: full;
   border: 0.2em solid;
-  border-color: #FFFFFF;
+  border-color: white;
 }
 
 <span

@@ -13,11 +13,11 @@ exports[`Elements inside input render correctly 1`] = `
 
 .emotion-0 {
   left: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 10px;
+  height: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -32,7 +32,7 @@ exports[`Elements inside input render correctly 1`] = `
   justify-content: center;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .emotion-1 {
@@ -44,20 +44,20 @@ exports[`Elements inside input render correctly 1`] = `
   appearance: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  font-size: 1rem;
-  padding-left: 1rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
+  font-size: md;
+  padding-left: 4px;
+  height: 10px;
+  border-radius: md;
   border: 1px solid;
   border-color: inherit;
-  background: #FFFFFF;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  background: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .emotion-1:hover,
 .emotion-1[data-hover] {
-  border-color: #CBD5E0;
+  border-color: gray.300;
 }
 
 .emotion-1[aria-readonly=true],
@@ -85,6 +85,7 @@ exports[`Elements inside input render correctly 1`] = `
 
 .emotion-1:focus,
 .emotion-1[data-focus] {
+  z-index: 1;
   border-color: #3182CE;
   box-shadow: 0 0 0 1px #3182CE;
 }
@@ -97,11 +98,11 @@ exports[`Elements inside input render correctly 1`] = `
 
 .emotion-2 {
   right: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 10px;
+  height: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -116,7 +117,7 @@ exports[`Elements inside input render correctly 1`] = `
   justify-content: center;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 <div
@@ -155,14 +156,14 @@ exports[`Input addons render correctly 1`] = `
 }
 
 .emotion-0 {
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 10px;
+  border-radius: md;
   border: 1px solid;
   border-color: inherit;
-  background: #EDF2F7;
+  background: gray.100;
   margin-right: -1px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -191,14 +192,14 @@ exports[`Input addons render correctly 1`] = `
   appearance: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 10px;
+  border-radius: md;
   border: 1px solid;
   border-color: inherit;
-  background: #FFFFFF;
+  background: white;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
@@ -207,7 +208,7 @@ exports[`Input addons render correctly 1`] = `
 
 .emotion-1:hover,
 .emotion-1[data-hover] {
-  border-color: #CBD5E0;
+  border-color: gray.300;
 }
 
 .emotion-1[aria-readonly=true],
@@ -235,6 +236,7 @@ exports[`Input addons render correctly 1`] = `
 
 .emotion-1:focus,
 .emotion-1[data-focus] {
+  z-index: 1;
   border-color: #3182CE;
   box-shadow: 0 0 0 1px #3182CE;
 }
@@ -246,14 +248,14 @@ exports[`Input addons render correctly 1`] = `
 }
 
 .emotion-2 {
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 10px;
+  border-radius: md;
   border: 1px solid;
   border-color: inherit;
-  background: #EDF2F7;
+  background: gray.100;
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -304,19 +306,19 @@ exports[`Input renders correctly 1`] = `
   appearance: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 10px;
+  border-radius: md;
   border: 1px solid;
   border-color: inherit;
-  background: #FFFFFF;
+  background: white;
 }
 
 .emotion-0:hover,
 .emotion-0[data-hover] {
-  border-color: #CBD5E0;
+  border-color: gray.300;
 }
 
 .emotion-0[aria-readonly=true],
@@ -344,6 +346,7 @@ exports[`Input renders correctly 1`] = `
 
 .emotion-0:focus,
 .emotion-0[data-focus] {
+  z-index: 1;
   border-color: #3182CE;
   box-shadow: 0 0 0 1px #3182CE;
 }

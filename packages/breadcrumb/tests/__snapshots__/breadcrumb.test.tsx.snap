@@ -31,7 +31,7 @@ exports[`Breadcrumb renders correctly 1`] = `
 
 .emotion-0:focus,
 .emotion-0[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-1 {

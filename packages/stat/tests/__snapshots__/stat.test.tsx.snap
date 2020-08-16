@@ -21,20 +21,22 @@ exports[`Stat renders correctly 1`] = `
 }
 
 .emotion-0 {
-  font-weight: 500;
-  font-size: 0.875rem;
+  font-weight: medium;
+  font-size: sm;
 }
 
 .emotion-1 {
   vertical-align: baseline;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: semibold;
+  font-size: 2xl;
+  font-feature-settings: pnum;
+  font-variant-numeric: proportional-nums;
 }
 
 .emotion-4 {
   opacity: 0.8;
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
+  margin-bottom: 2px;
+  font-size: sm;
 }
 
 .emotion-2 {
@@ -51,13 +53,13 @@ exports[`Stat renders correctly 1`] = `
 }
 
 .emotion-3 {
-  margin-right: 0.25rem;
+  margin-right: 1px;
   width: 14px;
   height: 14px;
   vertical-align: middle;
   display: inline-block;
   line-height: 1em;
-  color: #48BB78;
+  color: green.400;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -66,13 +68,13 @@ exports[`Stat renders correctly 1`] = `
 }
 
 .emotion-9 {
-  margin-right: 0.25rem;
+  margin-right: 1px;
   width: 14px;
   height: 14px;
   vertical-align: middle;
   display: inline-block;
   line-height: 1em;
-  color: #F56565;
+  color: red.400;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;

@@ -10,10 +10,10 @@ exports[`FormControl renders correctly in default state 1`] = `
 .emotion-0 {
   display: block;
   text-align: left;
-  font-size: 1rem;
-  margin-right: 0.75rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-size: md;
+  margin-right: 3px;
+  margin-bottom: 2px;
+  font-weight: medium;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   opacity: 1;
@@ -32,10 +32,10 @@ exports[`FormControl renders correctly in default state 1`] = `
 }
 
 .emotion-2 {
-  margin-top: 0.5rem;
-  color: #718096;
+  margin-top: 2px;
+  color: gray.500;
   line-height: normal;
-  font-size: 0.875rem;
+  font-size: sm;
 }
 
 <div
@@ -75,10 +75,10 @@ exports[`FormControl renders correctly when invalid 1`] = `
 .emotion-0 {
   display: block;
   text-align: left;
-  font-size: 1rem;
-  margin-right: 0.75rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-size: md;
+  margin-right: 3px;
+  margin-bottom: 2px;
+  font-weight: medium;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   opacity: 1;
@@ -97,10 +97,10 @@ exports[`FormControl renders correctly when invalid 1`] = `
 }
 
 .emotion-2 {
-  margin-top: 0.5rem;
-  color: #718096;
+  margin-top: 2px;
+  color: gray.500;
   line-height: normal;
-  font-size: 0.875rem;
+  font-size: sm;
 }
 
 .emotion-3 {
@@ -125,9 +125,9 @@ exports[`FormControl renders correctly when invalid 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #E53E3E;
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
+  color: red.500;
+  margin-top: 2px;
+  font-size: sm;
 }
 
 <div
@@ -187,10 +187,10 @@ exports[`FormControl renders correctly when required 1`] = `
 .emotion-1 {
   display: block;
   text-align: left;
-  font-size: 1rem;
-  margin-right: 0.75rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-size: md;
+  margin-right: 3px;
+  margin-bottom: 2px;
+  font-weight: medium;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   opacity: 1;
@@ -209,15 +209,15 @@ exports[`FormControl renders correctly when required 1`] = `
 }
 
 .emotion-3 {
-  margin-top: 0.5rem;
-  color: #718096;
+  margin-top: 2px;
+  color: gray.500;
   line-height: normal;
-  font-size: 0.875rem;
+  font-size: sm;
 }
 
 .emotion-0 {
-  margin-left: 0.25rem;
-  color: #E53E3E;
+  margin-left: 1px;
+  color: red.500;
 }
 
 <div
@@ -244,6 +244,7 @@ exports[`FormControl renders correctly when required 1`] = `
       class="emotion-2"
       id="name"
       placeholder="Name"
+      required=""
     />
     <div
       class="chakra-form__helper-text emotion-3"

@@ -25,20 +25,20 @@ exports[`accordion renders correctly 1`] = `
   transition: all 0.2s;
   outline: 0;
   font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .emotion-0:focus,
 .emotion-0[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-0:hover,
 .emotion-0[data-hover] {
-  background: rgba(0,0,0,0.04);
+  background: blackAlpha.50;
 }
 
 .emotion-0[disabled],
@@ -55,10 +55,10 @@ exports[`accordion renders correctly 1`] = `
 }
 
 .emotion-1 {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.25rem;
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 5px;
   -webkit-transition: height 150ms ease-in-out,opacity 150ms ease-in-out,-webkit-transform 150ms ease-in-out;
   -webkit-transition: height 150ms ease-in-out,opacity 150ms ease-in-out,transform 150ms ease-in-out;
   transition: height 150ms ease-in-out,opacity 150ms ease-in-out,transform 150ms ease-in-out;

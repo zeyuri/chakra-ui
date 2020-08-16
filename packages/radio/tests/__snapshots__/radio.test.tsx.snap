@@ -30,29 +30,29 @@ exports[`Radio renders correctly 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 1.25rem;
+  width: 5px;
   -webkit-transition: box-shadow 250ms;
   transition: box-shadow 250ms;
   border: 2px solid;
-  border-radius: 9999px;
+  border-radius: full;
   border-color: inherit;
-  color: #FFFFFF;
-  height: 1.25rem;
+  color: white;
+  height: 5px;
 }
 
 .emotion-0[aria-checked=true],
 .emotion-0[data-checked] {
-  background: #3182CE;
-  border-color: #3182CE;
-  color: #FFFFFF;
+  background: blue.500;
+  border-color: blue.500;
+  color: white;
 }
 
 .emotion-0[aria-checked=true]:hover,
 .emotion-0[data-checked]:hover,
 .emotion-0[aria-checked=true][data-hover],
 .emotion-0[data-checked][data-hover] {
-  background: #2A69AC;
-  border-color: #2A69AC;
+  background: blue.600;
+  border-color: blue.600;
 }
 
 .emotion-0[aria-checked=true][disabled],
@@ -73,9 +73,9 @@ exports[`Radio renders correctly 1`] = `
 .emotion-0[data-checked][data-disabled]:focus,
 .emotion-0[aria-checked=true][data-disabled]:hover,
 .emotion-0[data-checked][data-disabled]:hover {
-  border-color: #E2E8F0;
-  background: #E2E8F0;
-  color: #718096;
+  border-color: gray.200;
+  background: gray.200;
+  color: gray.500;
 }
 
 .emotion-0[aria-checked=true]::before,
@@ -92,9 +92,9 @@ exports[`Radio renders correctly 1`] = `
 .emotion-0:indeterminate,
 .emotion-0[aria-checked=mixed],
 .emotion-0[data-indeterminate] {
-  background: #3182CE;
-  border-color: #3182CE;
-  color: #FFFFFF;
+  background: blue.500;
+  border-color: blue.500;
+  color: white;
 }
 
 .emotion-0[disabled],
@@ -106,18 +106,18 @@ exports[`Radio renders correctly 1`] = `
 .emotion-0[data-disabled],
 .emotion-0[data-disabled]:focus,
 .emotion-0[data-disabled]:hover {
-  background: #EDF2F7;
-  border-color: #EDF2F7;
+  background: gray.100;
+  border-color: gray.100;
 }
 
 .emotion-0:focus,
 .emotion-0[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-0[aria-invalid=true],
 .emotion-0[data-invalid] {
-  border-color: #E53E3E;
+  border-color: red.500;
 }
 
 <label

@@ -30,19 +30,19 @@ exports[`Button renders correctly 1`] = `
   outline: none;
   width: auto;
   line-height: 1.2;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background: #EDF2F7;
+  border-radius: md;
+  font-weight: semibold;
+  height: 10px;
+  min-width: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: gray.100;
 }
 
 .emotion-0:focus,
 .emotion-0[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-0[disabled],
@@ -61,12 +61,12 @@ exports[`Button renders correctly 1`] = `
 
 .emotion-0:hover,
 .emotion-0[data-hover] {
-  background: #E2E8F0;
+  background: gray.200;
 }
 
 .emotion-0:active,
 .emotion-0[data-active] {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 <button
@@ -117,19 +117,19 @@ exports[`Button renders with icons 1`] = `
   outline: none;
   width: auto;
   line-height: 1.2;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background: #EDF2F7;
+  border-radius: md;
+  font-weight: semibold;
+  height: 10px;
+  min-width: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: gray.100;
 }
 
 .emotion-2:focus,
 .emotion-2[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
   z-index: 1;
 }
 
@@ -149,12 +149,12 @@ exports[`Button renders with icons 1`] = `
 
 .emotion-2:hover,
 .emotion-2[data-hover] {
-  background: #E2E8F0;
+  background: gray.200;
 }
 
 .emotion-2:active,
 .emotion-2[data-active] {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 .emotion-1 {
@@ -277,19 +277,19 @@ exports[`shows spinner and loading text if isLoading and loadingText 1`] = `
   outline: none;
   width: auto;
   line-height: 1.2;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background: #EDF2F7;
+  border-radius: md;
+  font-weight: semibold;
+  height: 10px;
+  min-width: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: gray.100;
 }
 
 .emotion-3:focus,
 .emotion-3[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-3[disabled],
@@ -308,19 +308,19 @@ exports[`shows spinner and loading text if isLoading and loadingText 1`] = `
 
 .emotion-3:hover,
 .emotion-3[data-hover] {
-  background: #E2E8F0;
+  background: gray.200;
 }
 
 .emotion-3:active,
 .emotion-3[data-active] {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 .emotion-1 {
   display: inline-block;
   border-color: currentColor;
   border-style: solid;
-  border-radius: 9999px;
+  border-radius: 99999px;
   border-width: 2px;
   border-bottom-color: transparent;
   border-left-color: transparent;
@@ -347,8 +347,18 @@ exports[`shows spinner and loading text if isLoading and loadingText 1`] = `
 }
 
 .emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   margin-right: 0.5rem;
+  font-size: 1em;
+  line-height: normal;
 }
 
 <button
@@ -419,19 +429,19 @@ exports[`shows spinner if isLoading 1`] = `
   outline: none;
   width: auto;
   line-height: 1.2;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background: #EDF2F7;
+  border-radius: md;
+  font-weight: semibold;
+  height: 10px;
+  min-width: 10px;
+  font-size: md;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: gray.100;
 }
 
 .emotion-4:focus,
 .emotion-4[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-4[disabled],
@@ -450,24 +460,34 @@ exports[`shows spinner if isLoading 1`] = `
 
 .emotion-4:hover,
 .emotion-4[data-hover] {
-  background: #E2E8F0;
+  background: gray.200;
 }
 
 .emotion-4:active,
 .emotion-4[data-active] {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 .emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
   margin-right: 0;
+  font-size: 1em;
+  line-height: normal;
 }
 
 .emotion-1 {
   display: inline-block;
   border-color: currentColor;
   border-style: solid;
-  border-radius: 9999px;
+  border-radius: 99999px;
   border-width: 2px;
   border-bottom-color: transparent;
   border-left-color: transparent;

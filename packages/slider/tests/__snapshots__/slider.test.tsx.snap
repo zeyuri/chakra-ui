@@ -25,8 +25,8 @@ exports[`rendering should render correctly 1`] = `
 
 .emotion-1 {
   overflow: hidden;
-  border-radius: 0.125rem;
-  background: #E2E8F0;
+  border-radius: sm;
+  background: gray.200;
   height: 4px;
 }
 
@@ -39,13 +39,13 @@ exports[`rendering should render correctly 1`] = `
 .emotion-1[data-disabled],
 .emotion-1[data-disabled]:focus,
 .emotion-1[data-disabled]:hover {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 .emotion-0 {
   width: inherit;
   height: inherit;
-  background: #E53E3E;
+  background: red.500;
 }
 
 .emotion-2 {
@@ -64,9 +64,9 @@ exports[`rendering should render correctly 1`] = `
   position: absolute;
   outline: 0;
   z-index: 1;
-  border-radius: 9999px;
-  background: #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  border-radius: full;
+  background: white;
+  box-shadow: base;
   border: 1px solid;
   border-color: transparent;
   -webkit-transition: -webkit-transform 0.2s;
@@ -82,7 +82,7 @@ exports[`rendering should render correctly 1`] = `
 
 .emotion-2:focus,
 .emotion-2[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-2[disabled],
@@ -94,7 +94,7 @@ exports[`rendering should render correctly 1`] = `
 .emotion-2[data-disabled],
 .emotion-2[data-disabled]:focus,
 .emotion-2[data-disabled]:hover {
-  background: #CBD5E0;
+  background: gray.300;
 }
 
 .emotion-2:active,

@@ -8,7 +8,7 @@ exports[`should render correctly 1`] = `
   position: fixed;
   left: 0;
   top: 0;
-  background: rgba(0,0,0,0.48);
+  background: blackAlpha.600;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -35,25 +35,25 @@ exports[`should render correctly 1`] = `
   position: relative;
   width: 100%;
   outline: 0;
-  border-radius: 0.25rem;
-  background: #FFFFFF;
+  border-radius: md;
+  background: white;
   color: inherit;
   margin-top: 3.75rem;
   margin-bottom: 3.75rem;
-  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
-  max-width: 28rem;
+  box-shadow: lg;
+  max-width: md;
 }
 
 .emotion-0 {
   -webkit-flex: 0;
   -ms-flex: 0;
   flex: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.25rem;
-  font-weight: 600;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: xl;
+  font-weight: semibold;
 }
 
 .emotion-2 {
@@ -73,7 +73,7 @@ exports[`should render correctly 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-radius: 0.25rem;
+  border-radius: md;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   width: 32px;
@@ -100,17 +100,17 @@ exports[`should render correctly 1`] = `
 
 .emotion-2:hover,
 .emotion-2[data-hover] {
-  background: rgba(0,0,0,0.06);
+  background: blackAlpha.100;
 }
 
 .emotion-2:active,
 .emotion-2[data-active] {
-  background: rgba(0,0,0,0.08);
+  background: blackAlpha.200;
 }
 
 .emotion-2:focus,
 .emotion-2[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-1 {
@@ -126,10 +126,10 @@ exports[`should render correctly 1`] = `
 }
 
 .emotion-3 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -151,10 +151,10 @@ exports[`should render correctly 1`] = `
   -webkit-flex: 0;
   -ms-flex: 0;
   flex: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 <div

@@ -9,7 +9,7 @@ exports[`should match snapshot 1`] = `
   font-weight: inherit;
   text-align: inherit;
   background: transparent;
-  border-radius: 0.25rem;
+  border-radius: md;
   padding-top: 3px;
   padding-bottom: 3px;
   -webkit-transition: all 0.2s;
@@ -22,17 +22,17 @@ exports[`should match snapshot 1`] = `
   font-weight: inherit;
   text-align: inherit;
   background: transparent;
-  border-radius: 0.25rem;
+  border-radius: md;
   padding-top: 3px;
   padding-bottom: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  width: 100%;
+  width: full;
 }
 
 .emotion-1:focus,
 .emotion-1[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-1::-webkit-input-placeholder {

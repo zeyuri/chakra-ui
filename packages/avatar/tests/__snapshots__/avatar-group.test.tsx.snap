@@ -21,7 +21,7 @@ exports[`AvatarGroup renders correctly 1`] = `
 }
 
 .emotion-0 {
-  border-radius: 9999px;
+  border-radius: full;
   border-width: 2px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -37,17 +37,17 @@ exports[`AvatarGroup renders correctly 1`] = `
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: medium;
   position: relative;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background: #A0AEC0;
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  background: gray.400;
+  color: white;
+  border-color: white;
   vertical-align: top;
-  width: 3rem;
-  height: 3rem;
+  width: 12;
+  height: 12;
   font-size: calc(3rem / 2.5);
   margin-right: 0;
 }

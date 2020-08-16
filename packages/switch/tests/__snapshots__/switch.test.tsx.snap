@@ -22,18 +22,18 @@ exports[`Switch renders correctly 1`] = `
   justify-content: flex-start;
   box-sizing: content-box;
   cursor: pointer;
-  border-radius: 9999px;
+  border-radius: full;
   padding: 2px;
   -webkit-transition: all 120ms;
   transition: all 120ms;
-  background: #CBD5E0;
+  background: gray.300;
   width: 1.875rem;
   height: 1rem;
 }
 
 .emotion-1:focus,
 .emotion-1[data-focus] {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.6);
+  box-shadow: outline;
 }
 
 .emotion-1[disabled],
@@ -51,15 +51,15 @@ exports[`Switch renders correctly 1`] = `
 
 .emotion-1[aria-checked=true],
 .emotion-1[data-checked] {
-  background: #3182CE;
+  background: blue.500;
 }
 
 .emotion-0 {
-  background: #FFFFFF;
+  background: white;
   -webkit-transition: -webkit-transform 250ms;
   -webkit-transition: transform 250ms;
   transition: transform 250ms;
-  border-radius: 9999px;
+  border-radius: full;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
