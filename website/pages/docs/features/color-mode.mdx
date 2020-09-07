@@ -109,7 +109,7 @@ function Example() {
 Starting from v1.0, you can now set default color mode or use default OS color
 mode.
 
-To support this, pass the `initialValue` prop to `ColorModeScript` component and
+To support this, pass the `defaultColorMode` prop to `ColorModeScript` component and
 set it's value to `light`, `dark` or `system`.
 
 By default the initial color mode is `light`. All you need to do is add
@@ -135,7 +135,7 @@ export default class Document extends NextDocument {
         <Head />
         <body>
           {/* 👇 Here's the script */}
-          <ColorModeScript initialValue="light" />
+          <ColorModeScript defaultColorMode="light" />
           <Main />
           <NextScript />
         </body>
